@@ -10,7 +10,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class HelloApplicationTests {
 
 	@Test
-	public void contextLoads() { 
-	}
+    public void test() {
+        HelloApplication person = new HelloApplication("Jeremy");
+        assert person.getName().equals("Jeremy");
+    }
 
 }
