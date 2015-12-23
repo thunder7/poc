@@ -15,8 +15,7 @@ public class HelloApplication {
         this.name = name;
     }
 
-    public String getName() { 
-       	System.out.println name;
+    public String getName() {        	
         return name ;
     }
 }
