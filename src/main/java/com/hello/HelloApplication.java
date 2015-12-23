@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloApplication {
     private final String name;
     
-    // public static void main(String[] args) {
-    //     SpringApplication.run(HelloApplication.class, args);
-    // }
+    public static void main(String[] args) {
+         SpringApplication.run(HelloApplication.class, args);
+     }
 
     public HelloApplication(String name) {
         this.name = name;
@@ -18,6 +18,4 @@ public class HelloApplication {
     public String getName() {
         return name;
     }
-}
-
 }
