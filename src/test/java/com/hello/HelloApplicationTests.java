@@ -13,7 +13,7 @@ public class HelloApplicationTests {
 	@Test
     public void test() {
         HelloApplication person = new HelloApplication("Jeremy");
-        assert person.getName().equals("Jeremyaa");
+        assert person.getName().equals("Jeremy");
     }
 
 }

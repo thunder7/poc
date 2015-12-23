@@ -15,7 +15,7 @@ public class HelloApplication {
         this.name = name;
     }
 
-    public String getName() {
-        return name + "aa";
+    public String getName() {    	
+        return name ;
     }
 }
