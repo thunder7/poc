@@ -1,5 +1,6 @@
 package com.hello;
 
+import com.hello.HelloApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -12,7 +13,7 @@ public class HelloApplicationTests {
 	@Test
     public void test() {
         HelloApplication person = new HelloApplication("Jeremy");
-        assert person.getName().equals("Jeremy");
+        assert person.getName().equals("Jeremyaa");
     }
 
 }
